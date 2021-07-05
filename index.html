@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Fuente Barlow -->
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-200">  
+    <div class="h-auto mx-auto grid place-items-center | md:w-screen md:h-screen">
+        <div class="max-w-md rounded-lg shadow-xl bg-white |  md:max-w-none lg:w-1/2 md:w-3/4 overflow-hidden">
+            <div class="up p-10">
+                <div>
+                    <h1 class="text-blue-600 font-bold text-lg">Join our community</h1>
+                    <div>
+                        <p class="mt-4 text-green-600 font-semibold">30-day, hassle-free money back guarantee</p>
+                        <p class="mt-2 text-gray-800 pr-4">
+                            Gain access to our full library along with expert code reviews.
+                            Perfect for any developer who are serius about honing their skills
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="down">
+                <div class="flex flex-col | md:grid md:grid-cols-2">
+                    <div class="left order-2 | md:order-none | color-left pt-8 pb-10 px-10 text-white">
+                        <h2 class="text-white font-bold text-lg mb-4">Monthly suscription</h2>
+                        <p class="flex items-center mb-4"><span class="font-bold text-3xl mr-2">$29</span> per month</p>
+                        <p class="mb-4">Full access for less than $1 a day</p>
+                        <button class="mt-4 w-full py-3 color-btn rounded-lg shadow-xl font-semibold transition duration-200">
+                            Sign Up
+                        </button>
+                    </div>
+                    <div class="right order-1 | md:order-none | color-right pt-8 pb-10 px-10">
+                        <h2 class="text-white font-bold text-lg mb-4">Why us</h2>
+                        <p class="text-white font-base">
+                            Tutorial by industry experts.<br>
+                            Peer & expert code review.<br>
+                            Coding exercises.<br>
+                            Access to our Github repos.<br>
+                            community forum.<br>
+                            Flashcard decks.<br>
+                            New videos every week. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
